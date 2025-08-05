@@ -5,3 +5,10 @@ outputs/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+# Ignore all files inside models except .gitkeep
+models/*
+!models/.gitkeep
+
+# Ignore all files inside outputs except .gitkeep
+outputs/*
+!outputs/.gitkeep
